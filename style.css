@@ -221,6 +221,12 @@ li{
 	margin-right: 28px;
 }
 
+.section__linkMore{
+	text-decoration: none;
+	color: #478baa;
+	font-weight: bold;
+}
+
 .contentMore{
 	color: #478baa;
 	font-weight: bold;
@@ -362,8 +368,51 @@ ul.section__videoList li:not(:last-child){
 
 /*Footer*/
 
-.footerContent{
-	height: 244px;
+/*.footer {
+   position: fixed;
+   height: 244px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: white;
+   text-align: center;
+}
+*/
+.footer{
+	height: 206px;
 	background-color: white;
-	position: relative;
+	padding-top: 38px;
+	border-top: 2px solid #d2d2d2;
+}
+
+.footer__listHeading{
+	margin-left: 27px;
+	margin-top: 0;
+}
+
+.footer__items{
+	float: left;
+}
+
+ul.footer__lists{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+ul.footer__lists li{
+	margin-left: 27px;
+	margin-bottom: 0px;
+}
+
+.footer__links{
+	text-decoration: none;
+	color: black;
+}
+
+.footer__vl{
+	margin-left: 55px;
+	border-left: 1.5px solid #d2d2d2;
+	float: left;
+	height: 170px;
 }

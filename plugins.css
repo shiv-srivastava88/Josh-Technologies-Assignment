@@ -42,6 +42,8 @@ opacity 0s;-moz-transition:transform 0s, opacity 0s;transition:transform 0s, opa
 
 .tns-nav{
 	position: absolute;
+    margin-top: -30px;
+    margin-left: 902px;
 }
 .tns-nav > [aria-controls] {
     width: 9px;
